@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A5CBCCE1474A3AB005DFB94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A5CBCB61474A3AB005DFB94 /* InfoPlist.strings */; };
+		8A5CBCCF1474A3AB005DFB94 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A5CBCB81474A3AB005DFB94 /* MainStoryboard.storyboard */; };
+		8A5CBCD01474A3AB005DFB94 /* FilterDemo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A5CBCBA1474A3AB005DFB94 /* FilterDemo-Info.plist */; };
+		8A5CBCD11474A3AB005DFB94 /* FilterDetailCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5CBCBC1474A3AB005DFB94 /* FilterDetailCategory.m */; };
+		8A5CBCD21474A3AB005DFB94 /* FilteredImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5CBCBE1474A3AB005DFB94 /* FilteredImageView.m */; };
+		8A5CBCD31474A3AB005DFB94 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A5CBCC01474A3AB005DFB94 /* Icon-72.png */; };
+		8A5CBCD41474A3AB005DFB94 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A5CBCC11474A3AB005DFB94 /* Icon-Small-50.png */; };
+		8A5CBCD51474A3AB005DFB94 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A5CBCC21474A3AB005DFB94 /* Icon-Small.png */; };
+		8A5CBCD61474A3AB005DFB94 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A5CBCC31474A3AB005DFB94 /* Icon-Small@2x.png */; };
+		8A5CBCD71474A3AB005DFB94 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A5CBCC41474A3AB005DFB94 /* Icon.png */; };
+		8A5CBCD81474A3AB005DFB94 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A5CBCC51474A3AB005DFB94 /* Icon@2x.png */; };
+		8A5CBCD91474A3AB005DFB94 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 8A5CBCC61474A3AB005DFB94 /* iTunesArtwork */; };
+		8A5CBCDA1474A3AB005DFB94 /* LakeDonPedro2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A5CBCC81474A3AB005DFB94 /* LakeDonPedro2.jpg */; };
+		8A5CBCDB1474A3AB005DFB94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5CBCC91474A3AB005DFB94 /* main.m */; };
+		8A5CBCDC1474A3AB005DFB94 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5CBCCB1474A3AB005DFB94 /* MainViewController.m */; };
+		8A5CBCDD1474A3AB005DFB94 /* PocketCoreImageAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5CBCCD1474A3AB005DFB94 /* PocketCoreImageAppDelegate.m */; };
+		D003846713D644A700E14A63 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D003846613D644A700E14A63 /* CoreImage.framework */; };
+		D0420C1B13D4B69500B69459 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0420C1A13D4B69500B69459 /* UIKit.framework */; };
+		D0420C1D13D4B69500B69459 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0420C1C13D4B69500B69459 /* Foundation.framework */; };
+		D0420C1F13D4B69500B69459 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0420C1E13D4B69500B69459 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A5CBCB71474A3AB005DFB94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A5CBCB91474A3AB005DFB94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8A5CBCBA1474A3AB005DFB94 /* FilterDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FilterDemo-Info.plist"; sourceTree = "<group>"; };
+		8A5CBCBB1474A3AB005DFB94 /* FilterDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FilterDemo-Prefix.pch"; sourceTree = "<group>"; };
+		8A5CBCBC1474A3AB005DFB94 /* FilterDetailCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterDetailCategory.m; sourceTree = "<group>"; };
+		8A5CBCBD1474A3AB005DFB94 /* FilteredImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilteredImageView.h; sourceTree = "<group>"; };
+		8A5CBCBE1474A3AB005DFB94 /* FilteredImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilteredImageView.m; sourceTree = "<group>"; };
+		8A5CBCC01474A3AB005DFB94 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		8A5CBCC11474A3AB005DFB94 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		8A5CBCC21474A3AB005DFB94 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		8A5CBCC31474A3AB005DFB94 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		8A5CBCC41474A3AB005DFB94 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		8A5CBCC51474A3AB005DFB94 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		8A5CBCC61474A3AB005DFB94 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		8A5CBCC81474A3AB005DFB94 /* LakeDonPedro2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LakeDonPedro2.jpg; sourceTree = "<group>"; };
+		8A5CBCC91474A3AB005DFB94 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A5CBCCA1474A3AB005DFB94 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		8A5CBCCB1474A3AB005DFB94 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		8A5CBCCC1474A3AB005DFB94 /* PocketCoreImageAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PocketCoreImageAppDelegate.h; sourceTree = "<group>"; };
+		8A5CBCCD1474A3AB005DFB94 /* PocketCoreImageAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PocketCoreImageAppDelegate.m; sourceTree = "<group>"; };
+		D003846613D644A700E14A63 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		D0420C1613D4B69500B69459 /* FilterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0420C1A13D4B69500B69459 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0420C1C13D4B69500B69459 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0420C1E13D4B69500B69459 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0420C1313D4B69500B69459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D003846713D644A700E14A63 /* CoreImage.framework in Frameworks */,
+				D0420C1B13D4B69500B69459 /* UIKit.framework in Frameworks */,
+				D0420C1D13D4B69500B69459 /* Foundation.framework in Frameworks */,
+				D0420C1F13D4B69500B69459 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A5CBCB51474A3AB005DFB94 /* FilterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8A5CBCB61474A3AB005DFB94 /* InfoPlist.strings */,
+				8A5CBCB81474A3AB005DFB94 /* MainStoryboard.storyboard */,
+				8A5CBCBA1474A3AB005DFB94 /* FilterDemo-Info.plist */,
+				8A5CBCBB1474A3AB005DFB94 /* FilterDemo-Prefix.pch */,
+				8A5CBCBC1474A3AB005DFB94 /* FilterDetailCategory.m */,
+				8A5CBCBD1474A3AB005DFB94 /* FilteredImageView.h */,
+				8A5CBCBE1474A3AB005DFB94 /* FilteredImageView.m */,
+				8A5CBCBF1474A3AB005DFB94 /* icons */,
+				8A5CBCC71474A3AB005DFB94 /* images */,
+				8A5CBCC91474A3AB005DFB94 /* main.m */,
+				8A5CBCCA1474A3AB005DFB94 /* MainViewController.h */,
+				8A5CBCCB1474A3AB005DFB94 /* MainViewController.m */,
+				8A5CBCCC1474A3AB005DFB94 /* PocketCoreImageAppDelegate.h */,
+				8A5CBCCD1474A3AB005DFB94 /* PocketCoreImageAppDelegate.m */,
+			);
+			path = FilterDemo;
+			sourceTree = "<group>";
+		};
+		8A5CBCBF1474A3AB005DFB94 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				8A5CBCC01474A3AB005DFB94 /* Icon-72.png */,
+				8A5CBCC11474A3AB005DFB94 /* Icon-Small-50.png */,
+				8A5CBCC21474A3AB005DFB94 /* Icon-Small.png */,
+				8A5CBCC31474A3AB005DFB94 /* Icon-Small@2x.png */,
+				8A5CBCC41474A3AB005DFB94 /* Icon.png */,
+				8A5CBCC51474A3AB005DFB94 /* Icon@2x.png */,
+				8A5CBCC61474A3AB005DFB94 /* iTunesArtwork */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		8A5CBCC71474A3AB005DFB94 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8A5CBCC81474A3AB005DFB94 /* LakeDonPedro2.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		D0420C0B13D4B69500B69459 = {
+			isa = PBXGroup;
+			children = (
+				8A5CBCB51474A3AB005DFB94 /* FilterDemo */,
+				D0420C1913D4B69500B69459 /* Frameworks */,
+				D0420C1713D4B69500B69459 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0420C1713D4B69500B69459 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0420C1613D4B69500B69459 /* FilterDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0420C1913D4B69500B69459 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D003846613D644A700E14A63 /* CoreImage.framework */,
+				D0420C1A13D4B69500B69459 /* UIKit.framework */,
+				D0420C1C13D4B69500B69459 /* Foundation.framework */,
+				D0420C1E13D4B69500B69459 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0420C1513D4B69500B69459 /* FilterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0420C3413D4B69600B69459 /* Build configuration list for PBXNativeTarget "FilterDemo" */;
+			buildPhases = (
+				D0420C1213D4B69500B69459 /* Sources */,
+				D0420C1313D4B69500B69459 /* Frameworks */,
+				D0420C1413D4B69500B69459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FilterDemo;
+			productName = PocketCoreImage;
+			productReference = D0420C1613D4B69500B69459 /* FilterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0420C0D13D4B69500B69459 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Apple, Inc";
+			};
+			buildConfigurationList = D0420C1013D4B69500B69459 /* Build configuration list for PBXProject "FilterDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0420C0B13D4B69500B69459;
+			productRefGroup = D0420C1713D4B69500B69459 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0420C1513D4B69500B69459 /* FilterDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0420C1413D4B69500B69459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5CBCCE1474A3AB005DFB94 /* InfoPlist.strings in Resources */,
+				8A5CBCCF1474A3AB005DFB94 /* MainStoryboard.storyboard in Resources */,
+				8A5CBCD01474A3AB005DFB94 /* FilterDemo-Info.plist in Resources */,
+				8A5CBCD31474A3AB005DFB94 /* Icon-72.png in Resources */,
+				8A5CBCD41474A3AB005DFB94 /* Icon-Small-50.png in Resources */,
+				8A5CBCD51474A3AB005DFB94 /* Icon-Small.png in Resources */,
+				8A5CBCD61474A3AB005DFB94 /* Icon-Small@2x.png in Resources */,
+				8A5CBCD71474A3AB005DFB94 /* Icon.png in Resources */,
+				8A5CBCD81474A3AB005DFB94 /* Icon@2x.png in Resources */,
+				8A5CBCD91474A3AB005DFB94 /* iTunesArtwork in Resources */,
+				8A5CBCDA1474A3AB005DFB94 /* LakeDonPedro2.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0420C1213D4B69500B69459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5CBCD11474A3AB005DFB94 /* FilterDetailCategory.m in Sources */,
+				8A5CBCD21474A3AB005DFB94 /* FilteredImageView.m in Sources */,
+				8A5CBCDB1474A3AB005DFB94 /* main.m in Sources */,
+				8A5CBCDC1474A3AB005DFB94 /* MainViewController.m in Sources */,
+				8A5CBCDD1474A3AB005DFB94 /* PocketCoreImageAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A5CBCB61474A3AB005DFB94 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A5CBCB71474A3AB005DFB94 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8A5CBCB81474A3AB005DFB94 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A5CBCB91474A3AB005DFB94 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0420C3213D4B69600B69459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0420C3313D4B69600B69459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0420C3513D4B69600B69459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FilterDemo/FilterDemo-Prefix.pch";
+				INFOPLIST_FILE = "FilterDemo/FilterDemo-Info.plist";
+				PRODUCT_NAME = FilterDemo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0420C3613D4B69600B69459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FilterDemo/FilterDemo-Prefix.pch";
+				INFOPLIST_FILE = "FilterDemo/FilterDemo-Info.plist";
+				PRODUCT_NAME = FilterDemo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0420C1013D4B69500B69459 /* Build configuration list for PBXProject "FilterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0420C3213D4B69600B69459 /* Debug */,
+				D0420C3313D4B69600B69459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0420C3413D4B69600B69459 /* Build configuration list for PBXNativeTarget "FilterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0420C3513D4B69600B69459 /* Debug */,
+				D0420C3613D4B69600B69459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0420C0D13D4B69500B69459 /* Project object */;
+}
