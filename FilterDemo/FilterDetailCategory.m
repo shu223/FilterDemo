@@ -132,7 +132,12 @@ float randFloat(float a, float b)
             }
         
         }
-        
+        else if ([[attributeDictionary objectForKey:kCIAttributeClass] isEqualToString:@"CIImage"]) {
+            
+            UIImage *uiimage = [UIImage imageNamed:@"bw.png"];
+            CIImage *ciimage = [CIImage imageWithCGImage:uiimage.CGImage];
+            [filter setValue:ciimage forKey:key];
+        }
     }
 }
 

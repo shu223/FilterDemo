@@ -7,18 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A185FB21683248800B1F480 /* bw.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A185FB11683248800B1F480 /* bw.png */; };
 		8A5CBCCE1474A3AB005DFB94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A5CBCB61474A3AB005DFB94 /* InfoPlist.strings */; };
 		8A5CBCCF1474A3AB005DFB94 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A5CBCB81474A3AB005DFB94 /* MainStoryboard.storyboard */; };
 		8A5CBCD01474A3AB005DFB94 /* FilterDemo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A5CBCBA1474A3AB005DFB94 /* FilterDemo-Info.plist */; };
 		8A5CBCD11474A3AB005DFB94 /* FilterDetailCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5CBCBC1474A3AB005DFB94 /* FilterDetailCategory.m */; };
 		8A5CBCD21474A3AB005DFB94 /* FilteredImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5CBCBE1474A3AB005DFB94 /* FilteredImageView.m */; };
-		8A5CBCD31474A3AB005DFB94 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A5CBCC01474A3AB005DFB94 /* Icon-72.png */; };
-		8A5CBCD41474A3AB005DFB94 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A5CBCC11474A3AB005DFB94 /* Icon-Small-50.png */; };
-		8A5CBCD51474A3AB005DFB94 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A5CBCC21474A3AB005DFB94 /* Icon-Small.png */; };
-		8A5CBCD61474A3AB005DFB94 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A5CBCC31474A3AB005DFB94 /* Icon-Small@2x.png */; };
-		8A5CBCD71474A3AB005DFB94 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A5CBCC41474A3AB005DFB94 /* Icon.png */; };
-		8A5CBCD81474A3AB005DFB94 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A5CBCC51474A3AB005DFB94 /* Icon@2x.png */; };
-		8A5CBCD91474A3AB005DFB94 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 8A5CBCC61474A3AB005DFB94 /* iTunesArtwork */; };
 		8A5CBCDA1474A3AB005DFB94 /* LakeDonPedro2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A5CBCC81474A3AB005DFB94 /* LakeDonPedro2.jpg */; };
 		8A5CBCDB1474A3AB005DFB94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5CBCC91474A3AB005DFB94 /* main.m */; };
 		8A5CBCDC1474A3AB005DFB94 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5CBCCB1474A3AB005DFB94 /* MainViewController.m */; };
@@ -30,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A185FB11683248800B1F480 /* bw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bw.png; sourceTree = "<group>"; };
 		8A5CBCB71474A3AB005DFB94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8A5CBCB91474A3AB005DFB94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		8A5CBCBA1474A3AB005DFB94 /* FilterDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FilterDemo-Info.plist"; sourceTree = "<group>"; };
@@ -37,13 +32,6 @@
 		8A5CBCBC1474A3AB005DFB94 /* FilterDetailCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterDetailCategory.m; sourceTree = "<group>"; };
 		8A5CBCBD1474A3AB005DFB94 /* FilteredImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilteredImageView.h; sourceTree = "<group>"; };
 		8A5CBCBE1474A3AB005DFB94 /* FilteredImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilteredImageView.m; sourceTree = "<group>"; };
-		8A5CBCC01474A3AB005DFB94 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
-		8A5CBCC11474A3AB005DFB94 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
-		8A5CBCC21474A3AB005DFB94 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
-		8A5CBCC31474A3AB005DFB94 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
-		8A5CBCC41474A3AB005DFB94 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		8A5CBCC51474A3AB005DFB94 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
-		8A5CBCC61474A3AB005DFB94 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 		8A5CBCC81474A3AB005DFB94 /* LakeDonPedro2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LakeDonPedro2.jpg; sourceTree = "<group>"; };
 		8A5CBCC91474A3AB005DFB94 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8A5CBCCA1474A3AB005DFB94 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -82,7 +70,6 @@
 				8A5CBCBC1474A3AB005DFB94 /* FilterDetailCategory.m */,
 				8A5CBCBD1474A3AB005DFB94 /* FilteredImageView.h */,
 				8A5CBCBE1474A3AB005DFB94 /* FilteredImageView.m */,
-				8A5CBCBF1474A3AB005DFB94 /* icons */,
 				8A5CBCC71474A3AB005DFB94 /* images */,
 				8A5CBCC91474A3AB005DFB94 /* main.m */,
 				8A5CBCCA1474A3AB005DFB94 /* MainViewController.h */,
@@ -93,23 +80,10 @@
 			path = FilterDemo;
 			sourceTree = "<group>";
 		};
-		8A5CBCBF1474A3AB005DFB94 /* icons */ = {
-			isa = PBXGroup;
-			children = (
-				8A5CBCC01474A3AB005DFB94 /* Icon-72.png */,
-				8A5CBCC11474A3AB005DFB94 /* Icon-Small-50.png */,
-				8A5CBCC21474A3AB005DFB94 /* Icon-Small.png */,
-				8A5CBCC31474A3AB005DFB94 /* Icon-Small@2x.png */,
-				8A5CBCC41474A3AB005DFB94 /* Icon.png */,
-				8A5CBCC51474A3AB005DFB94 /* Icon@2x.png */,
-				8A5CBCC61474A3AB005DFB94 /* iTunesArtwork */,
-			);
-			path = icons;
-			sourceTree = "<group>";
-		};
 		8A5CBCC71474A3AB005DFB94 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				8A185FB11683248800B1F480 /* bw.png */,
 				8A5CBCC81474A3AB005DFB94 /* LakeDonPedro2.jpg */,
 			);
 			path = images;
@@ -197,14 +171,8 @@
 				8A5CBCCE1474A3AB005DFB94 /* InfoPlist.strings in Resources */,
 				8A5CBCCF1474A3AB005DFB94 /* MainStoryboard.storyboard in Resources */,
 				8A5CBCD01474A3AB005DFB94 /* FilterDemo-Info.plist in Resources */,
-				8A5CBCD31474A3AB005DFB94 /* Icon-72.png in Resources */,
-				8A5CBCD41474A3AB005DFB94 /* Icon-Small-50.png in Resources */,
-				8A5CBCD51474A3AB005DFB94 /* Icon-Small.png in Resources */,
-				8A5CBCD61474A3AB005DFB94 /* Icon-Small@2x.png in Resources */,
-				8A5CBCD71474A3AB005DFB94 /* Icon.png in Resources */,
-				8A5CBCD81474A3AB005DFB94 /* Icon@2x.png in Resources */,
-				8A5CBCD91474A3AB005DFB94 /* iTunesArtwork in Resources */,
 				8A5CBCDA1474A3AB005DFB94 /* LakeDonPedro2.jpg in Resources */,
+				8A185FB21683248800B1F480 /* bw.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
