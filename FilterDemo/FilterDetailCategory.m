@@ -118,7 +118,6 @@ float randFloat(float a, float b)
                 float minimumValue = [[attributeDictionary valueForKey:kCIAttributeSliderMin] floatValue];
                 
                 float randomValue = randFloat(minimumValue, maximumValue);
-                NSLog(@"min:%f, max:%f, random:%f", minimumValue, maximumValue, randomValue);
 
                 NSLog(@"Setting %f for key %@ of type Decimal", randomValue, key);
                 [filter setValue:[NSNumber numberWithFloat:randomValue] forKey:key];
@@ -141,6 +140,22 @@ float randFloat(float a, float b)
             UIImage *uiimage = [UIImage imageNamed:@"bw.png"];
             CIImage *ciimage = [CIImage imageWithCGImage:uiimage.CGImage];
             [filter setValue:ciimage forKey:key];
+        }
+        else if ([[attributeDictionary objectForKey:kCIAttributeClass] isEqualToString:@"CIVector"]) {
+
+            CIVector *vector = [CIVector vectorWithCGPoint:CGPointMake(arc4random() % 50,
+                                                                       arc4random() % 50)];
+            NSLog(@"Setting %@ for key %@ of type CIVector", vector, key);
+            [filter setValue:vector forKey:key];
+        }
+        else if ([[attributeDictionary objectForKey:kCIAttributeClass] isEqualToString:@"CIColor"]) {
+            
+            CIColor *color = [CIColor colorWithRed:randFloat(0, 1)
+                                             green:randFloat(0, 1)
+                                              blue:randFloat(0, 1)
+                                             alpha:1.0];
+            NSLog(@"Setting %@ for key %@ of type CIColor", color, key);
+            [filter setValue:color forKey:key];
         }
     }
 }
