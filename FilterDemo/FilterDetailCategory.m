@@ -73,13 +73,14 @@
     return editableAttributes;
 }
 
+#define ARC4RANDOM_MAX      0x100000000
+
 //
 // Helper function that returns a random float value within the specified range.
 float randFloat(float a, float b);
 float randFloat(float a, float b)
 {
-    srand(time(NULL)); 
-    return ((b-a)*((float)arc4random()/RAND_MAX))+a;
+    return ((b-a)*(float)arc4random()/ARC4RANDOM_MAX)+a;
 }
 
 //
@@ -88,6 +89,7 @@ float randFloat(float a, float b)
 {
     // Get the filter's parameters we're interested in configuring here.
     NSDictionary *editableAttributes = [MainViewController deriveEditableAttributesForFilter:filter];
+    NSLog(@"editableAttributes:%@", editableAttributes);
     
     for (NSString *key in editableAttributes) {
         
@@ -108,6 +110,7 @@ float randFloat(float a, float b)
             }
             else if([attributeDictionary objectForKey:kCIAttributeType] == kCIAttributeTypeScalar ||
                     [attributeDictionary objectForKey:kCIAttributeType] == kCIAttributeTypeDistance ||
+                    [attributeDictionary objectForKey:kCIAttributeType] == kCIAttributeTypeTime ||
                     [attributeDictionary objectForKey:kCIAttributeType] == kCIAttributeTypeAngle)
             {
                 // Get the min and max values
@@ -115,6 +118,7 @@ float randFloat(float a, float b)
                 float minimumValue = [[attributeDictionary valueForKey:kCIAttributeSliderMin] floatValue];
                 
                 float randomValue = randFloat(minimumValue, maximumValue);
+                NSLog(@"min:%f, max:%f, random:%f", minimumValue, maximumValue, randomValue);
 
                 NSLog(@"Setting %f for key %@ of type Decimal", randomValue, key);
                 [filter setValue:[NSNumber numberWithFloat:randomValue] forKey:key];
